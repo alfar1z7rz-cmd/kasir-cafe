@@ -1,21 +1,21 @@
 body {
-    background-color: #FFFFE0; 
-  font-family: arial,sans-serif
-  color: #191970
+    background-color: #FFFFE0; /* Perbaikan sintaks properti */
+    font-family: Arial, sans-serif; /* Perbaikan font-family */
+    color: #191970;
 }
 
-.kartu-profil {
-  width: 300px;
-  margin: 50px auto; 
-  padding: 20px;
-  background-color: white;
-  border-radius: 15px; 
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
-  text-align:center;
+.kartu-profil { /* Perbaikan dari spasi menjadi hyphen agar sesuai HTML */
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white; /* Perbaikan bacground-color */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Perbaikan box-shado */
+    text-align: center; /* Perbaikan kelebihan titik dua */
 }
 
 
 .kartu-profil img {
-    width: 150px
-    border-radius: 50%; 
+    width: 150px;
+    border-radius: 50%;
 }
