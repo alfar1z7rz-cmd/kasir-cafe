@@ -1,7 +1,7 @@
 body {
-    bacground.color; #FFFFE0; /*warna KUNING cerah */
-  font-family: arial,sans-serf; /* jenis huruf yang bersih dan mudah dibaca */
-  color: #191970 /* warna teks utama (biru gelap)
+    background.color; #FFFFE0; 
+  font-family: arial,sans-serfif
+  color: #191970
 }
 
 .kartu profil {
@@ -9,10 +9,12 @@ body {
   margin: 50px auto; 
   padding: 20px;
   bacground-color: white;
-  border-radius: 15px; /**
+  border-radius: 15px; 
   box-shado: 0 4px 8pxrgba(0,0,0,0.1); 
-  text-align:center: /*
+  text-align:center: 
 }
+
+
 .kartu-profil img {
     width: 150px
     border-radius: 50%; 
