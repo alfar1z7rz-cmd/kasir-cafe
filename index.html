@@ -1,17 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>profil digital - nabila</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMKS Al Hikam Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="kartu-profil">
-    <img src="foto-profil.jpg" alt="foto profil naila">
-    <h1>nabila</h1>
-    <p>siswi smks alhikam </p>
-    <a href="https://www.instagram.com/usernameanda">kunjungi no wa saya</a>
-    <button id="sapabutton">sapa saya!</button>
-  </div>
-<script src="script.js"></script>
+    <div class="login-container">
+        <div class="login-form">
+            <div class="logo-placeholder">
+                <img src="logo-smks-al-hikam.png" alt="SMKS Al Hikam Logo">
+            </div>
+            
+            <h1>SMKS AL HIKAM</h1>
+            
+            <form action="#" method="POST">
+                <div class="input-group">
+                    <input type="text" id="username" name="username" placeholder="user name" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" name="password" placeholder="paswort" required>
+                </div>
+                <button type="submit" class="login-btn">LOGIN</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
